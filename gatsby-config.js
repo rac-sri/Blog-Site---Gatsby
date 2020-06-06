@@ -10,10 +10,10 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-tslint',
     {
-      resolve: 'gatsby-mdx',
+      resolve: 'gatsby-plugin-mdx',
       options: {
         defaultLayouts: {
-          default: require.resolve('./src/components/layout.tsx'),
+          default: require.resolve('./src/components/layout.js'),
         },
       },
     },
